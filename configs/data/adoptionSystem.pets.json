@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "67c235869d8465ab986a8539"
+  },
+  "name": "Carlitos",
+  "description": "bulldog",
+  "age": 3,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67c14eab3f1ef863b0daef7a"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-28T22:15:34.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-28T22:36:09.226Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c238279d8465ab986a8542"
+  },
+  "name": "Ponky",
+  "description": "husky",
+  "age": 6,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67c237b59d8465ab986a853d"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-28T22:26:47.844Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-28T22:26:47.844Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c259755d38df79e55ea0d1"
+  },
+  "name": "Mike",
+  "description": "golden",
+  "age": 3,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67c259165d38df79e55ea0cc"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-01T00:48:53.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T00:48:53.812Z"
+  }
+}]

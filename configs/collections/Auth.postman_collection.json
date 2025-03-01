@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "7ed7d16e-71c9-4b9e-92b9-b8a82ddadd7d",
+		"name": "Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42553440"
+	},
+	"item": [
+		{
+			"name": "loginAdmin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registerAdmin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Messi\",\n  \"username\": \"GOAT\",\n  \"email\": \"messi@gmail.com\",\n  \"password\": \"cvQ5pGTg\",\n  \"role\": \"ADMIN_ROLE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/gestordeopiniones/v1/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"gestordeopiniones",
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loginUser",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "registerUser",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

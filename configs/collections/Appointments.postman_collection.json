@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "160ef737-7395-49fb-bf8a-878a83e10b0f",
+		"name": "Appointments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42553440"
+	},
+	"item": [
+		{
+			"name": "PostApp",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
